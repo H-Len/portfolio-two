@@ -33,7 +33,7 @@ _an internet connection is required for this app_
 
 ## Link to GitHub Pages
 
-_ [Portfolio Two](https://github.com/H-Len/portfolio-two) _
+[Portfolio Two](https://github.com/H-Len/portfolio-two)
 
 ## Known Bugs
 

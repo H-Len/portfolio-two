@@ -7,12 +7,16 @@
     <title>HRM Landing Page</title>
   </head>
   <body>
-    <img src="img/coffee-cup.jpg" alt="cup of coffee in background" width="100%">
     <div class="container">
       <div class="well">
         <div class="jumbotron">
-          <h1>Welcome to my page!</h1>
-          <h3 class="author">Hannah Melendy</h3>
+          <h3 class="author">Hannah Melendy <img src="img/Me.jpg" alt="smiley face, representing myself" width="70px"></h3>
+          <blockquote class="bulliton">
+            <p>I'm so glad you came to look at this website!</p>
+            <footer>webpage's author</footer>
+          </blockquote>
+            <h1>Welcome to my page!</h1>
+          </div>
         </div>
       </div>
       <br>
@@ -21,21 +25,58 @@
           <div class="aboutMe">
               <h3>A list of projects I have worked on, <span class="weighted"><em>chronologically</em></span>, in reverse order.</h3>
               <ol>
-                <li><a href="https://github.com/H-Len/portfolio-two.git">This Portfolio</a></li>
-                <li><a href="https://github.com/H-Len/moon-vacation.git">Moon Vacation</a></li>
+                <li><a href="https://github.com/H-Len/portfolio-two.git">This Portfolio</a><br>
+                <span class="bg-info">This project demonstrates some possibilities of what can be created with HTML and CSS, as well as how Bootstrap and images can be used in a project.</span><br>
+                The following languages are included in the project:
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul></li>
+                <li><a href="https://github.com/H-Len/moon-vacation.git">Moon Vacation</a><br>
+                This project was created to practice Bootstrap classes.<br>
+                The following languages are included in the project:
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul>
+                </li>
                 <li><a href="https://github.com/H-Len/week-in-review.git">Week in Review</a><br>
-                (Praticing Bootstrap.)</li>
+                (Praticing Bootstrap some more.)<br>
+                The following languages are included in the project:
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul></li>
               </ol>
           </div>
         </div>
         <div class="col-md-4">
-          <h3>My background</h3>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">My background</h3>
+            </div>
+              <div class="block">
+                I am who I am, or so I try to be.
+              </div><br>
+              <p>In my life I have:<br>
+                 Written poetry<br>
+                 Graduated from UCB<br>
+                 Served in AmeriCorps<br>
+              </p>
+              <p> I am taking programming because
+                <ul class="reasons">
+                  <li>I enjoy languages</li>
+                  <li>I like puzzles</li>
+                  <li>I want to open up career opportunities</li>
+                </ul>
+              </p>
+          </div>
         </div>
         <div class="col-md-4">
-          <img src="img/finding-myself.jpg" alt="searching for myself quote" height="250px" width="250px">
           <p><strong>About Me</strong></p>
+          <img src="img/finding-myself.jpg" alt="searching for myself quote" height="250px" width="250px">
           <p>Things I'm interested in:</p>
-          <ul>
+          <ul class="reasons">
             <li>Karaoke</li>
             <li>Bouldering</li>
             <li>Reading</li>
@@ -45,6 +86,3 @@
     </div>
   </body>
 </html>
-
-      </div>
-  </body>

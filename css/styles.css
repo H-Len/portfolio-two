@@ -1,0 +1,23 @@
+body {
+  text-transform: lowercase;
+  background-color: lavender;
+  font-family: 'Ranga', cursive;
+}
+
+h1 {
+  text-align: center;
+  background-image: image(openSky.jpeg);
+}
+
+.author {
+  text-align: center;
+}
+
+.aboutMe {
+  text-align: left;
+  background-color: beige;
+  font-family: 'Crimson Text', serif;
+  float: right;
+  border: 5px #000;
+  margin: 5px;
+}

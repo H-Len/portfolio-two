@@ -2,7 +2,7 @@ body {
   text-transform: lowercase;
   background-color: lavender;
   font-family: 'Ranga', cursive;
-  background-image: src=image("img/coffee-cup.jpg");
+  background-image: src=("img/coffee-cup.jpg");
 }
 
 h1 {

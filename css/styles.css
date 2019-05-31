@@ -1,28 +1,42 @@
 body {
+  text-align: center;
   text-transform: lowercase;
-  background-color: lavender;
   font-family: 'Ranga', cursive;
-  background-image: src=("img/coffee-cup.jpg");
+  background: url("../img/outer-space.jpg");
+  background-position: center;
+  padding: 20px;
+  margin: 50px;
+}
+
+.well {
+  color: darkblue;
 }
 
 h1 {
-  text-align: center;
-  background-image: image(openSky.jpeg);
+  background: url("../img/openSky.jpeg");
 }
 
 .author {
+  background-color: yellow;
   text-align: center;
+  border-radius: 50%;
+  width: 80px;
 }
 
 .row {
   font-family: 'Crimson Text', serif;
   background-color: beige;
+  background-color: lavender;
   margin: 15px;
 }
 
 .weighted {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.reasons {
+  text-align: left;
 }
 
 .aboutMe {

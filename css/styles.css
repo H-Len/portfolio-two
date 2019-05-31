@@ -10,7 +10,6 @@ body {
 
 .well {
   color: darkblue;
-  padding: 2px
 }
 
 .jumbotron {
@@ -22,12 +21,16 @@ body {
   padding: 25px;
   margin: 25px;
   float: left;
+  border: groove 1em red;
+  border-radius: 2em;
 }
 
 .intro-right {
   padding: 25px;
   margin: 25px;
   float: right;
+  border: dotted;
+  border-radius: 50% 20% / 10% 40%;
 }
 
 .welcome {
@@ -62,6 +65,7 @@ h1 {
 .weighted {
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .reasons {
@@ -81,4 +85,16 @@ h1 {
 
 .col-md-4 {
   border: solid 10px black;
+  padding: 10px;
+  text-align: center;
+}
+
+h3 {
+  text-align: right;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.blockquote {
+  border: dotted 2px blue;
 }

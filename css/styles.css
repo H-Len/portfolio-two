@@ -10,10 +10,38 @@ body {
 
 .well {
   color: darkblue;
+  padding: 2px
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.intro-left {
+  padding: 25px;
+  margin: 25px;
+  float: left;
+}
+
+.intro-right {
+  padding: 25px;
+  margin: 25px;
+  float: right;
+}
+
+.welcome {
+  background-repeat: no-repeat;
+  border-radius: 60%;
+  float: right;
 }
 
 h1 {
   background: url("../img/openSky.jpeg");
+}
+
+.bulleton {
+  font-size: 2rem;
+  width: 250px;
 }
 
 .author {
@@ -44,4 +72,8 @@ h1 {
   float: right;
   border: 5px #000;
   margin: 5px;
+}
+
+.roundIMG {
+  border-radius: 50%;
 }

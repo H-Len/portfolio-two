@@ -10,7 +10,7 @@ _This repo helps to demo different concepts covered in CSS, HTML, and Git in wee
 
 ## Setup/Installation Requirements
 
-* _clone down repository_
+* _clone down repository from GitHub_
 * _open browser of your choice_
 * _open HTML for application in browser_
 
@@ -22,7 +22,7 @@ _an internet connection is required for this app_
 
 ## Known Bugs
 
-_There are no known bugs at this time_
+_This app is designed for a computer screen sized viewport: not tablets or phones_
 
 ## Support and contact details
 

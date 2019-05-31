@@ -2,6 +2,7 @@ body {
   text-transform: lowercase;
   background-color: lavender;
   font-family: 'Ranga', cursive;
+  background-image: src=image("img/coffee-cup.jpg");
 }
 
 h1 {
@@ -13,10 +14,19 @@ h1 {
   text-align: center;
 }
 
+.row {
+  font-family: 'Crimson Text', serif;
+  background-color: beige;
+  margin: 15px;
+}
+
+.weighted {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .aboutMe {
   text-align: left;
-  background-color: beige;
-  font-family: 'Crimson Text', serif;
   float: right;
   border: 5px #000;
   margin: 5px;
